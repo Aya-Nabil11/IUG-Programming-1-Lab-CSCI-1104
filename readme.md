@@ -21,28 +21,6 @@ This repository is created to:
 
 ---
 
-## 🗂 **Repository Structure**
-
-📦 CSCI1104-Programming1-Lab
-┣ 📁 Week01_Introduction
-┣ 📁 Week02_Variables
-┣ 📁 Week03_Operators
-┣ 📁 Week04_Conditions
-┣ 📁 Week05_Loops
-┣ 📁 Week06_Arrays
-┣ 📁 Week07_Methods
-┣ 📁 Week08_OOP_ClassesObjects
-┣ 📁 Week09_Constructors
-┣ 📁 Week10_Inheritance
-┣ 📁 Week11_Polymorphism
-┣ 📁 Week12_ExceptionHandling
-┗ 📁 Extra_Practice
-
-yaml
-Copy code
-
----
-
 ## 📅 **Semester**
 **Fall Term – November 2025**
 
