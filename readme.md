@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📘 **IUG Programming (1) – Lab | CSCI 1104**  
+# 📘 **IUG Programming (1) – Lab Using Java | CSCI 1104**  
 ## **Course Code Repository (Fall 2025)**  
 ### **Instructor: Aya Nabil Alharazin – Teaching Assistant**  
 #### Faculty of Information Technology – Islamic University of Gaza  

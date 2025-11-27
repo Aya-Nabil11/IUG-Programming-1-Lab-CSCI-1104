@@ -12,7 +12,6 @@ public class LogicalOperators {
     public static void main(String[] args) {
         /*
         Logical Operators are used to perform "logical AND" and "logical OR" operation.
-        They have a short-circuiting effect, 
         */
         
         
