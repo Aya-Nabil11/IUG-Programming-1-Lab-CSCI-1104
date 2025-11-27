@@ -14,11 +14,11 @@ public class JavaDataTypes {
         - Java is a statically typed programming language,
           meaning variable types are known at compile time.
         - Data types in Java divided into two categories: 
-            1- Primitive Data Types: Store simple values directly in memory.
-            2- Non-Primitive (Reference) Data Types: Store memory references to objects.
+            1- Primitive Data Types: Store simple values directly in memory.(value)
+            2- Non-Primitive (Reference) Data Types: Store memory references to objects.(address)
         - Primitive Data Types :
             1- boolean
-            2- byte
+            2- byte  
             3- short
             4- int
             5- long
@@ -26,5 +26,24 @@ public class JavaDataTypes {
             7- double
             8- char
         */
+  //String name ="Aya";
+  //double price =14.5;
+  
+  boolean isGraduated=true;
+  System.out.println("is Aya Graduated "+isGraduated);
+  
+  int age=22;
+  System.out.println("the Age of Aya: "+age);
+  
+  double price=15.5;
+  System.out.println("the price of tea: "+price);
+  
+  char c='r';
+        System.out.println(c);
+        
+  String name="Aya";
+  String college="CS";
+        System.out.println("the student name "+name +" and her college "+college);
+        
     }
 }

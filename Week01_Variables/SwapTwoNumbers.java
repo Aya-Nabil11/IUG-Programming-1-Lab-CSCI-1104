@@ -8,9 +8,22 @@ package Week01_Variables;
  *
  * @author aya
  */
-public class JavaOperators {
+public class SwapTwoNumbers {
     public static void main(String[] args) {
-        int a = 5;
-System.out.println(a++ + ++a);
+        int num1=4;
+        int num2=10;
+        
+       
+        
+        
+        
+        
+        System.out.println("num1: "+num1);
+        System.out.println("num2: "+num2);
+        
+        
+        
+        
+        
     }
 }

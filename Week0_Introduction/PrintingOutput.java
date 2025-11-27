@@ -18,10 +18,21 @@ public class PrintingOutput {
             1- print()
             2- println()
         */
+
+        
+        System.out.println("Hello World");
+        System.out.print("Hello from java lab");
         
         
         
         
+        
+            // comments
+        
+        //
+        /*
+        
+        */
         
     }
 }

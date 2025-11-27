@@ -26,5 +26,27 @@ public class JavaVariables {
             6- Follow Naming Conventions: Typically, use camelCase for variable names in Java (e.g., totalMarks).
 ********** Declare a variable and initilize a variable  ********
         */
+        
+    // dataType var_name;
+//    int age; //declaration
+//    age=12;  //assign value
+    
+    //int age=33; // declaration and initilization
+        
+        
+    int _b=12;
+    int $z=2;
+    int asa=5;
+        
+        
+   // int age;
+   // int Age;
+        
+    String studentNameAnd="Aya";
+    String x="sana";
+    
+    
+    int age; //declaration
+    age=55; //initilization
     }
 }
