@@ -68,7 +68,7 @@ This repository is created to:
 
 ## 📚 **Weekly Content**
 
-### **Week 1: Introduction to Java**
+### **Week 1: Java Basics – Variables, Data Types & Operators**
 - ☕ Introduction to Java programming
 - 🖥️ Setting up development environment
 - 📝 First Java program (Hello World)
