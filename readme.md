@@ -73,33 +73,33 @@ This repository is created to:
 - 🖥️ Setting up development environment
 - 📝 First Java program (Hello World)
 - 🔤 Variables and basic data types
-- 🌐 [Interactive Tutorial Website](link-to-week1-website)
-
-### **Week 2: Data Types and Operators**
 - 🔢 Primitive data types (int, double, char, boolean)
 - ➕ Arithmetic operators (+, -, *, /, %)
 - 🔄 Type casting and conversion
-- 🌐 [Interactive Tutorial Website](link-to-week2-website)
+- 🌐 [Interactive Tutorial Website](link-to-week1-website)
+- 🌐 [Recorded Lecture For Week1 ](https://youtu.be/r1_M8WCivOU?si=Gwl9MUL_FbGbUCnZ)
 
-### **Week 3: Strings**
+### **Week 3: Strings and Scanner**
 - 📝 String declaration and initialization
 - 🔧 String methods (charAt, length, substring, etc.)
 - 🔍 String comparison (equals, ==)
 - ⌨️ Scanner for user input
 - 🎨 Escape sequences (\n, \t, \", \\)
-- 🌐 [Interactive Tutorial Website](https://your-strings-tutorial-link.html)
-- 📋 [Assignment 1: String Fundamentals](link-to-assignment1)
+- 🌐 [Interactive Tutorial Website](https://claude.ai/public/artifacts/f61be4a5-b6c7-4123-8ea8-28ac440ef333)
+- 🌐 [Recorded Lecture For Week1 ]()
 
 ### **Week 4: Control Structures** *(Coming Soon)*
 - 🔀 If-else statements
 - 🔁 Switch-case
 - 🌐 Interactive Tutorial Website
+- 🌐 [Recorded Lecture For Week1 ]()
 
 ### **Week 5: Loops** *(Coming Soon)*
 - 🔄 For loops
 - 🔁 While loops
 - 🔂 Do-while loops
 - 🌐 Interactive Tutorial Website
+- 🌐 [Recorded Lecture For Week1 ]()
 
 ---
 
