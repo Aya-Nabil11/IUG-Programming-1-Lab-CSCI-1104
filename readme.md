@@ -172,6 +172,6 @@ Special thanks to:
 
 **If you found this repository helpful, please ⭐ star it!**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/IUG-Java-Programming-Lab?style=social)](https://github.com/yourusername/IUG-Java-Programming-Lab)
+[![GitHub stars](https://img.shields.io/github/stars/Aya-Nabil11//IUG-Programming-1-Lab-CSCI-1104?style=social)]([https://github.com/yourusername/IUG-Java-Programming-Lab](https://github.com/Aya-Nabil11/IUG-Programming-1-Lab-CSCI-1104))
 
 </div>
