@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Week01_Variables;
+package week01variables;
 
 /**
  *
@@ -39,11 +39,11 @@ public class JavaDataTypes {
   System.out.println("the price of tea: "+price);
   
   char c='r';
-        System.out.println(c);
+  System.out.println(c);
         
   String name="Aya";
   String college="CS";
-        System.out.println("the student name "+name +" and her college "+college);
+  System.out.println("the student name "+name +" and her college "+college);
         
     }
 }

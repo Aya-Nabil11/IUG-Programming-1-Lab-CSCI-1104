@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Week01_Variables;
+package week01variables;
 
 /**
  *
@@ -13,12 +13,12 @@ public class IncrementAndDecrementOperators {
         
 
 //    int num=10;
-    // increment
+//    increment
 //    num=num+1;
 //    num+=1;
 //    num++;
     
-    //. decrement
+//. decrement
 //    num=num-1;
 //    num-=1;
 //    num--;
@@ -32,24 +32,8 @@ public class IncrementAndDecrementOperators {
 //    num++;
 //    ++num;
 //    System.out.println(++num);
-//        System.out.println(num++);
-//        System.out.println(num);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//    System.out.println(num++);
+//    System.out.println(num);
 
     
         
@@ -66,14 +50,10 @@ public class IncrementAndDecrementOperators {
     // num =11
     // num =12
     
-    
-    
     // num=10
     // num=11
     // num=12
 
-    
-    
     int i=8;   
     int j=i++;   // j=8    , i=9
     int k=++i;    // k= 10   , i=10
