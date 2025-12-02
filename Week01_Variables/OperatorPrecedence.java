@@ -21,6 +21,11 @@ public class OperatorPrecedence {
             4- + , -
         */
         
+        int x = (4+2)*3;
+        System.out.println(x);
+        
+        int y=4+5-1;
+        
         
         
         

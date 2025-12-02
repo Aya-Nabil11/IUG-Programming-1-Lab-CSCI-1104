@@ -27,10 +27,23 @@ public class JavaAssignmentOperator {
           6-  (%=) operator: 
                 x %= 10;  // x = x % 10
         */
-    
-      
-      
-      
+        
+        
+        
+        int x = 10;
+//        x+=6;  // x=x+6   // x=10
+//        System.out.println(x);
+//        x-=2; // x =x-2;
+//        System.out.println(x);
+        
+       x%=3;  // x=x%3;
+        System.out.println(x);
+       
+        
+        
+        
+        
+        
 
       }
 }
