@@ -45,9 +45,9 @@ This repository is created to:
 ## 📂 **Repository Structure**
 ```
 📦 IUG-Java-Programming-Lab
-├── 📁 Week0_introduction
+├── 📁 week0introduction
 │   ├── 📄 PrintingOutputInJava.java
-├── 📁 Week01_Variables
+├── 📁 week01variables
 │   ├── 📄 JavaDataTypes.java
 │   ├── 📄 JavaVariables.java
 │   ├── 🌐 TypeCasting.java
@@ -56,7 +56,7 @@ This repository is created to:
 │   ├── 📄 IncrementAndDecrementOperators.java
 │   ├── 📄 OperatorPrecedence.java  
 │   └── 🌐 Week01Exercises.java
-├── 📁 Week03_Strings
+├── 📁week02stringandscanner
 │   ├── 📄 StringClassTutorial.java
 │   ├── 📄 ScannerInput.java
 │   ├── 🌐 EscapingCharacters.java
