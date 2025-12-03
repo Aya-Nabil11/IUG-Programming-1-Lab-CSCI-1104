@@ -3,8 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package week02stringandscanner;
-
-
 /**
  *
  * @author aya
@@ -17,211 +15,114 @@ public class StringClassTutorial {
          */    
         // -------------------------------------------------------------
         // 1. Declaring and Initializing Strings
+        // 2. Warning(Yellow)  vs Error(red)
+        // 3. StringIndexOutOfBoundException
         // -------------------------------------------------------------        
-        String firstName = "Aya";
-        String lastName = "Alharazin";
-        // Concatenation
-        String fullName = firstName + " " + lastName;
-        System.out.println("Full name: " + fullName);
-        // What the output of this program
-        System.out.println("Hi from "+5+1+" class");
-        System.out.println("Hi from"+(5+1)+" class");
-        System.out.println(5+1+"Hi from"+" class");
-        String x="aya";
-        String x2="aya";
-        System.out.println(x==x2);
-        
-        
-       
-        
-        
-        
-        
-        String name="Aya";
-        String name2=name;
-        name2="salma";
-        System.out.println(name2);
-        System.out.println(name);
-        
         
         /*
-      
-┌──────┐               
-│  x   |───────────┐   
-└──────┘           │   ┌─────────┐
-                   └───>│  "aya"│
-┌──────┐           ┌───>│        │
-│  x2  │───────────┘   └─────────┘
-└──────┘
+        *  1- ' → single quote
+        *  2- " → double quote
+        *  3- ( → parenthesis
+        *  4- { → curly bracket 
+        *  5- [ → square bracket
         */
         
+      /* 
+       *Data Types 
+       * 1- primitive Data Types  ->value
+       * 2- Non-primitive data types(class, reference)-->address
+      */ 
+      
+//    String name;  // declaration
+//    name="Aya";   //initilization
+//    System.out.println("name: " + name); // cocatenation
+//    System.out.println("name"+1+2);  // name1+2 =name12
+//    System.out.println(1+2+"name");  //1+2 =3+"name" =3name
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        // -------------------------------------------------------------
-        // 2. Useful String Methods
-        // -------------------------------------------------------------
-        
-        // 1. int length() Method
-        
-        
-        // 2.String toLowerCase() Method
-        // 3.String toUpperCase() Method
-        // 4. charAt(int i) Method
-        // 5. String substring(int i) Method
-        // 6. String concat( String s) Method
-        // 7 int indexOf(String s) Method
-        // 8. boolean equals(String s) Method
-        // 9. boolean equalsIgnoreCase(String s) Method
-        // 10. int compareTo(String s) Method
-        // 11.String trim() Method
-        // 12. boolean contains(String sequence) Method
-        // 13.boolean startsWith(String s) Method
+//    Basic Example
+//    String name="Aya";
+//    String city="Gaza";
+//    String message=name+" lives in "+city;
+//    System.out.println(message);
 
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
- 
-    // String Methods
-//        System.out.println(name.length());
-//        System.out.println(name.toLowerCase());
-//        System.out.println(name.toUpperCase());
-//        name=name.toUpperCase();
-//        System.out.println(name);
-//        char n0=name.charAt(0);
-        // A    y     a
-        // 0    1     2   index
-        // yellow  warning
-        //red error
-        // ما تشرحي هاي الميثود لانه اياد مكفي وموفي
-        // جيبي ميثودس اضافية
-        // StringIndexOutOfBoundException
-        // print the last char
-        String message="Hi from python lab";
-        message=message.replaceAll("python", "java");
-        System.out.println(message);
-        message.replaceAll("python", "");
-        // concat
-        
-//        boolean x=name.contains("python");
-        
-//        String names= "Aya , Ahmed , Khalid , sami";
-//        System.out.println(names.contains("ali"));
-// the search is case sensitive
-// make the search case insensitive
 
 
-//message.indexOf("Hi"); if the text does not exsit return -1
 
+//    String firstName = "Ahmed";
+//    String lastName = "Ali";
+//    String fullName = firstName + " " + lastName;
+//    System.out.println(firstName);
+//    System.out.println(lastName);
+//    System.out.println(fullName);
+
+
+
+    // Primitives
+    int x = 10;
+    int y = x; // Copies the VALUE
+    y = 20; // x is still 10
+    System.out.println(x);
+    System.out.println(y);
+    // Strings
+    String s1 = "Hello";
+    String s2 = s1; // Copies the REFERENCE (address)
+    s2 = "World"; // Creates new object, s1 unchanged
+
+
+
+    //  x -> 10
+    //  y -> 20
+
+    // s1 -> 0x1A11      0x1A11 ->"Hello"
+    // s2 -> 0x1A12      0x1A12 ->"world"
+
+    // immutable can't be change
+
+    String message="Aya Nabil";// 0-4
+    int length = message.length();
+    System.out.println("the length of message is : "+length);
+
+    String smallLetter=message.toLowerCase();
+    String capitalLetter=message.toUpperCase();
+    System.out.println(smallLetter);
+    System.out.println(capitalLetter);
+    // index of the last char= length -1 -> 5-1
+    int indexOfLastChar=length-1;
+    char c=message.charAt(indexOfLastChar);
+    System.out.println(c);
+    // Substring
+    String substringMessage= message.substring(4);
+    String substringMessage2= message.substring(1,4);
+    System.out.println("substringMessage:"+substringMessage);
+    System.out.println("substringMessage:"+substringMessage2);
+    System.out.println(indexOfLastChar);
     
-        
-        // substring
-//        String fileName="aya.txt";
-//        fileName.substring(n0,n1);// from n0 to n1-1
-        
-        
-        
-        
-//     String fullName="Aya Nabil";
-//     int spaceIndex=fullName.indexOf(" ");
-//     String firstName=fullName.substring(0,spaceIndex);
-//     String lastName=fullName.substring(spaceIndex+1);
-//     System.out.println(firstName);
-//     System.out.println(lastName);
-        
-        
-        
-        // equals  , password.equal(input)
-        // the difference between == and equals
-        // equalsIgnoreCase
-        //startsWith
-        //endsWith
-        
-        
-        
-        
-        
-        // lec 9
-        // boolean isEmal=email.contains("@");
-        // boolean isURL=url.startsWith("http);
-        
-        
-        // trim
-//        String a="Ahmed";
-//        String b="Omar";
-//        int result=a.compareTo(b);
-//        System.out.println(result);
-//        char x=66;
-//        System.out.println(x);
-//            int zz = 'A';
-//        System.out.println(zz);
-        
-        
-//        String name="Aya Nabil"; // convert it to UpperCase And return the lastName
-        
-        
-        
-
-
-
-String xx="name is name bbb name";
-        System.out.println(xx.replaceAll("name", "ahmed"));
-
-        
-        
-        
-        
-        
-//        String x="Hello World";
-//        x.toLowerCase().substring(5);
-        
-        
-        
-        
-        
-
-
-
-
-
-
-
-char ch = 'A';
-int ascii = ch;
-System.out.println("ASCII of A: " + ascii);
-// Output: ASCII of A: 65
-char ch2 = 66;
-System.out.println("Char: " + ch2);
-// Output: Char: B
-
-
-
-
+    String concatedMessage=message.concat(" Saleem Alharazin");
+    System.out.println(concatedMessage);
+    int index=message.indexOf(" ");
+    System.out.println("index of a "+index);
+    
+    String password1="Aya123";
+    String password2="aya123";
+    boolean isEqual=password1.equals(password2);
+    System.out.println(isEqual);
+    
+    
+    String password3="Aya123";
+    String password4="aya123";
+    boolean isEqual1=password3.equalsIgnoreCase(password4);
+    System.out.println(isEqual1);
+    
+    String name1="khalid";
+    String name2="ahmed";
+    int compareTo=name1.compareTo(name2);
+    System.out.println(compareTo);
+    
+    String s="       ";
+    System.out.println(s.isEmpty());
+    System.out.println(s.isBlank()); // return true if the String empty or contail whitspaces
+    
     }
 }

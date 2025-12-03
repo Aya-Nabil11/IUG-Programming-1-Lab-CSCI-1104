@@ -12,40 +12,44 @@ import java.util.Scanner;
  */
 public class ScannerInput {
     public static void main(String[] args) {
-        // get started with scanner
-        Scanner s=new Scanner(System.in);
-        // why import , why float , int and String are not using import
-//        s.nextInt();
-//        s.nextFloat();
-//        s.nextDouble();
-//        s.nextLine();
-        
-        // نصف قطر الدئرة والناتج مساحة الدائرة
-//         System.out.println("Enter the radius of the circle");
+        // Get Started With Scanner
          
-         
-         
-         // take three number of the user and print the average of these numbers
-         // firstName and secondName 
-         // output Hello AYA NABIL
-         
-         //take 1994 and the output
-         //1
-         //9
-         //9
-         //4
-         
-         
-         
-         
-         
-         
-         
-         
-         System.out.println(s.next());
-         
-         
-         
-         
+//    Scanner s ; // Declare Scanner Type
+//    s =new Scanner(System.in);
+    
+    Scanner s= new Scanner(System.in);
+//    1- .next
+//    String name=s.next();
+//    System.out.println(name);
+//      2- .nextLine
+//    String name=s.nextLine();
+//    System.out.println(name);
+//        3- integer
+//    int age=s.nextInt();
+//    System.out.println("Your Age: "+age);
+
+    
+        System.out.println("Enter Your Age : ");
+        int age=s.nextInt(); //24
+        System.out.println("Enter your name: ");
+        s.nextLine(); //enter
+        String name=s.nextLine(); // my name
+        System.out.println("Your name is :"+name);
+        System.out.println("Your age is :"+age);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
