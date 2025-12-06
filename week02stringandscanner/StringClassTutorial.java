@@ -124,5 +124,9 @@ public class StringClassTutorial {
     System.out.println(s.isEmpty());
     System.out.println(s.isBlank()); // return true if the String empty or contail whitspaces
     
+    String names="ahmed , khalid , sami";
+    System.out.println(names.contains("ali"));  // true
+    
+    
     }
 }
