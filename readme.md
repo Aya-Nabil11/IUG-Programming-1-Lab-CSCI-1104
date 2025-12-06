@@ -85,7 +85,7 @@ This repository is created to:
 - 🔍 String comparison (equals, ==)
 - ⌨️ Scanner for user input
 - 🎨 Escape sequences (\n, \t, \", \\)
-- 🌐 [Interactive Tutorial Website](https://claude.ai/public/artifacts/f61be4a5-b6c7-4123-8ea8-28ac440ef333)
+- 🌐 [Interactive Tutorial Website](https://claude.ai/public/artifacts/0552923a-bda7-4b13-8fad-d2b74bf8d3f9)
 - 🌐 [Recorded Lecture For Week1 ]()
 
 ### **Week 4: Control Structures** *(Coming Soon)*
