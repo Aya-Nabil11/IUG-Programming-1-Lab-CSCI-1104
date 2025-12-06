@@ -63,8 +63,8 @@ public class StringClassTutorial {
     int x = 10;
     int y = x; // Copies the VALUE
     y = 20; // x is still 10
-    System.out.println(x);
-    System.out.println(y);
+//    System.out.println(x);
+//    System.out.println(y);
     // Strings
     String s1 = "Hello";
     String s2 = s1; // Copies the REFERENCE (address)
@@ -79,54 +79,60 @@ public class StringClassTutorial {
     // s2 -> 0x1A12      0x1A12 ->"world"
 
     // immutable can't be change
-
+    // length
     String message="Aya Nabil";// 0-4
     int length = message.length();
-    System.out.println("the length of message is : "+length);
-
+    System.out.println("length\t"+length);
+    //toLowerCase  and toUpperCase
     String smallLetter=message.toLowerCase();
     String capitalLetter=message.toUpperCase();
-    System.out.println(smallLetter);
-    System.out.println(capitalLetter);
+    System.out.println("Lower case\t"+smallLetter);
+    System.out.println("Upper case\t"+capitalLetter);
     // index of the last char= length -1 -> 5-1
-    int indexOfLastChar=length-1;
-    char c=message.charAt(indexOfLastChar);
-    System.out.println(c);
+//    int indexOfLastChar=length-1;
+//    char c=message.charAt(indexOfLastChar);
+//    System.out.println(c);
     // Substring
-    String substringMessage= message.substring(4);
-    String substringMessage2= message.substring(1,4);
-    System.out.println("substringMessage:"+substringMessage);
-    System.out.println("substringMessage:"+substringMessage2);
-    System.out.println(indexOfLastChar);
+//    String substringMessage= message.substring(4);
+//    String substringMessage2= message.substring(1,4);
+//    System.out.println("substringMessage:"+substringMessage);
+//    System.out.println("substringMessage:"+substringMessage2);
+//    System.out.println(indexOfLastChar);
+    // concat
+//    String concatedMessage=message.concat(" Saleem Alharazin");
+//    System.out.println(concatedMessage);
+//    int index=message.indexOf(" ");
+//    System.out.println("index of a "+index);
+    // equals
+//    String password1="Aya123";
+//    String password2="aya123";
+//    boolean isEqual=password1.equals(password2);
+//    System.out.println(isEqual);
     
-    String concatedMessage=message.concat(" Saleem Alharazin");
-    System.out.println(concatedMessage);
-    int index=message.indexOf(" ");
-    System.out.println("index of a "+index);
-    
-    String password1="Aya123";
-    String password2="aya123";
-    boolean isEqual=password1.equals(password2);
-    System.out.println(isEqual);
-    
-    
-    String password3="Aya123";
-    String password4="aya123";
-    boolean isEqual1=password3.equalsIgnoreCase(password4);
-    System.out.println(isEqual1);
-    
-    String name1="khalid";
-    String name2="ahmed";
-    int compareTo=name1.compareTo(name2);
-    System.out.println(compareTo);
-    
-    String s="       ";
-    System.out.println(s.isEmpty());
-    System.out.println(s.isBlank()); // return true if the String empty or contail whitspaces
-    
-    String names="ahmed , khalid , sami";
-    System.out.println(names.contains("ali"));  // true
-    
-    
+    // equalsIgnoreCase
+//    String password3="Aya123";
+//    String password4="aya123";
+//    boolean isEqual1=password3.equalsIgnoreCase(password4);
+//    System.out.println(isEqual1);
+    // compareTo
+//    String name1="khalid";
+//    String name2="ahmed";
+//    int compareTo=name1.compareTo(name2);
+//    System.out.println(compareTo);
+    // isEmpty and isBlank
+//    String s="       ";
+//    System.out.println(s.isEmpty());
+//    System.out.println(s.isBlank()); // return true if the String empty or contail whitspaces
+    // contains
+//    String names="ahmed , khalid , sami";
+//    System.out.println(names.contains("ali"));  // true
+    // replace
+//    String message1 ="Hi from python lab , puthon is fun!";
+//    String replacedMessage=message1.replace("python", "java");
+//    System.out.println(replacedMessage);
+    // trim 
+//    String message2="    hello world  ";
+//    String trimmedMessage=message2.trim();
+//        System.out.println(trimmedMessage);
     }
 }
