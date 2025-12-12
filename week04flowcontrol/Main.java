@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package week03flowcontrol;
+package week04flowcontrol;
 
 /**
  *
@@ -70,17 +70,50 @@ public class Main {
 
 // are you married
 
+// even or odd
+// lec 5
+// switch
+//if(x==1){
+//    
+//}else if(x==2){
+//    
+//}else if(x==3){
+//    
+//}elae{
+//        
+//    }
 
-char x='\'';
-System.out.println(x);
+
+
+
+// nested case
+// Ternary operators   ====   conditional operator
+//String url="https://aya/ahmed";
+//String isValidURL=url.startsWith("aya")?"ahmed":"anas";
+//        
+
+//lec 6
+
+// exit()
+//System.exit(0);
+//discover the precedence last thing
+// short circut evalution  == lazy evaluation
+// constant
+//final int x=5;
+// syntax code
+// Run time error
+// logical error
+
+
+int c = (int)'a';
+        System.out.println(c);
+char x='a'+1;
+char z=(char)134;
 
 
 
 
 
 
-
-
-        
     }
 }

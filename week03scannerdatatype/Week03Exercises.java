@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package week02stringandscanner;
+package week03scannerdatatype;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author aya
  */
-public class Week02Exercises {
+public class Week03Exercises {
     public static void main(String[] args) {
       
 //        Scanner s=new Scanner(System.in);
@@ -40,16 +40,14 @@ public class Week02Exercises {
     Scanner s=new Scanner(System.in);
     System.out.println("Enter Full Name:");
     String fullName=s.nextLine();
-    // Title case
+//     Title case
     int spaceIndex=fullName.indexOf(" ");
     String firstName=  fullName.substring(0,spaceIndex); //0-2
     String secondName= fullName.substring(spaceIndex+1);
     char firstCharOfFirstName=firstName.toUpperCase().charAt(0);
     char firstCharOfSecondtName=secondName.toUpperCase().charAt(0);
-    System.out.println(firstCharOfFirstName);
-    System.out.println(firstCharOfSecondtName);
-    // A
-    // S
+//    System.out.println(firstCharOfFirstName);
+//    System.out.println(firstCharOfSecondtName);
        // A                  //hmed
     String firstNameWithTitleCase=firstCharOfFirstName+firstName.substring(1);
     String secondNameWithTitleCase=firstCharOfSecondtName+secondName.substring(1);
@@ -62,16 +60,14 @@ public class Week02Exercises {
 //          =3+1
 
 
-//    int length=fullName.length();
-//    int lengthOfNoSpacesFullName=fullName.replace(" ","").length();
-//    int noOfSpace=length-lengthOfNoSpacesFullName;
-//    System.out.println("Number of words= "+(noOfSpace+1));
+    int length=fullName.length();
+    int lengthOfNoSpacesFullName=fullName.replace(" ","").length();
+    int noOfSpace=length-lengthOfNoSpacesFullName;
+    System.out.println("Number of words= "+(noOfSpace+1));
 
 
 
 
-
-    
     
     
     
