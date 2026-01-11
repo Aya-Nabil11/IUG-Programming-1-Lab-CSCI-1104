@@ -103,62 +103,62 @@ public class CodingExercises {
 //    }    
 //  ******************************************************************************  
 //    5- Atm Machine 
-//    Scanner s= new Scanner(System.in);
-//    System.out.println("Enter PIN : ");
-//    int storedPin = 1234;
-//    double balance = 1000;
-//    int pin=s.nextInt();
-//    if(pin==storedPin ){
-//        System.out.println("Enter 1 to check your balance");
-//        System.out.println("Enter 2 to withdraw");
-//        System.out.println("Enter 3 to deposite");
-//        System.out.println("Enter 4 to exit");
-//        int choice =s.nextInt();
-//        switch(choice){
-//            case 1 :
-//                System.out.println("Current Balance "+balance+" $");
-//                break;
-//            case 2 :
-//                System.out.print("Amount: ");
-//                double amount = s.nextDouble();
-//                if(amount > balance){
-//                    System.out.println("Insufficient Funds");
-//                    System.out.println("Your balance: $"+balance);
-//                    System.out.println("Requested: $"+amount);
-//                }else if(amount<=balance && amount >0){
-//                    balance-=amount;
-//                    System.out.println("Withdrawal Successful");
-//                    System.out.println("Amount withdrawn:"+amount);
-//                    System.out.println("New balance: $"+balance);
-//                }else{
-//                    System.out.println("Negative amount");
-//                }
-//                break;
-//            case 3: 
-//                System.out.print("Amount: ");
-//                double depositedAmount = s.nextDouble();
-//                if(depositedAmount>0){
-//                    balance+=depositedAmount;
-//                    System.out.println("Deposit Successful");
-//                    System.out.println("Amount deposited: $"+depositedAmount);
-//                    System.out.println("New balance: $"+balance);
-//
-//                }else{
-//                    System.out.println("Negative deposited amount");
-//                }
-//                break;
-//            case 4 :
-//                System.exit(0);
-//                break;
-//            default:
-//                System.out.println("Invalid choice");
-//        }
+    Scanner s= new Scanner(System.in);
+    System.out.println("Enter PIN : ");
+    int storedPin = 1234;
+    double balance = 1000;
+    int pin=s.nextInt();
+    if(pin==storedPin ){
+        System.out.println("Enter 1 to check your balance");
+        System.out.println("Enter 2 to withdraw");
+        System.out.println("Enter 3 to deposite");
+        System.out.println("Enter 4 to exit");
+        int choice =s.nextInt();
+        switch(choice){
+            case 1 :
+                System.out.println("Current Balance "+balance+" $");
+                break;
+            case 2 :
+                System.out.print("Amount: ");
+                double amount = s.nextDouble();
+                if(amount > balance){
+                    System.out.println("Insufficient Funds");
+                    System.out.println("Your balance: $"+balance);
+                    System.out.println("Requested: $"+amount);
+                }else if(amount<=balance && amount >0){
+                    balance-=amount;
+                    System.out.println("Withdrawal Successful");
+                    System.out.println("Amount withdrawn:"+amount);
+                    System.out.println("New balance: $"+balance);
+                }else{
+                    System.out.println("Negative amount");
+                }
+                break;
+            case 3: 
+                System.out.print("Amount: ");
+                double depositedAmount = s.nextDouble();
+                if(depositedAmount>0){
+                    balance+=depositedAmount;
+                    System.out.println("Deposit Successful");
+                    System.out.println("Amount deposited: $"+depositedAmount);
+                    System.out.println("New balance: $"+balance);
+
+                }else{
+                    System.out.println("Negative deposited amount");
+                }
+                break;
+            case 4 :
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Invalid choice");
+        }
         
-  //    }else{
-//        System.out.println("Invalid Pin");
-//        System.exit(0);
-//    }
-//    
+      }else{
+        System.out.println("Invalid Pin");
+        System.exit(0);
+    }
+    
     
     
     
