@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author aya
  */
-public class CoodingExercises {
+public class CodingExercises {
     public static void main(String[] args) {
         /*
         1 - Write a Java program that repeatedly reads a string
