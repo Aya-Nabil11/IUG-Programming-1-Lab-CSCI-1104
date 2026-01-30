@@ -53,12 +53,6 @@ public class CodingExercises {
             }
         }
         System.out.println(repeatedChars);
-        
-         
-        
-        
-        
-        
         /*
         3 - prints all prime numbers between 1 and 100 (inclusive).
         */
@@ -107,10 +101,6 @@ public class CodingExercises {
         
       
 */
-        
-        
-        
-        
         /*
         5 - Menu-Driven Calculator
         Write a Java program that displays the following menu repeatedly using a do-while loop:
@@ -162,13 +152,5 @@ public class CodingExercises {
                 System.out.println("Enter valid number");
         }
         }while(choice!=4);
-        
-        
-     
-        
-        
-        
-        
-        
     }
 }
