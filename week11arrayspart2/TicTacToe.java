@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package week11_twodimentional_arrays;
+package week11arrayspart2;
 
 import java.util.Scanner;
 
@@ -35,7 +35,7 @@ do{
         int row = s.nextInt();
         System.out.println("Choose column");
         int column = s.nextInt();
-        if(row<=3 && row>=0&&column>=0&&column<=3 &&board[row-1][column-1].equals("")){
+        if(row<=3 && row>=1&&column>=1&&column<=3 &&board[row-1][column-1].equals("")){
             board[row-1][column-1] = player;
             loop_variable+=1;
         }else{
