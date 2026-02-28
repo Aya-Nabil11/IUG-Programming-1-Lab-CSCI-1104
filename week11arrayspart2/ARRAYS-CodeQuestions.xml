@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$module$/top/Arrays - Coding</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 5600669  -->
+  <question type="essay">
+    <name>
+      <text>Leaders</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h1><strong>Leaders in Array</strong></h1>
+<p>Write a program that finds all leaders in an array of integers.</p>
+<p>An element is considered a leader if it is greater than all the elements to its right.</p>
+<p><strong>Input:</strong></p>
+<p>[16, 17, 4, 3, 5, 2]</p>
+<p><strong>Output:</strong></p>
+<p>[17, 5, 2]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 5600670  -->
+  <question type="essay">
+    <name>
+      <text>Max - min</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h1><strong>Split and Find Maximum and Minimum</strong></h1>
+<p>Write a program that takes a string of numbers separated by a slash (/), splits the string, converts the values to integers, and finds both the maximum and minimum numbers using a for-each loop.</p>
+<p><strong>Input:</strong></p>
+<p>"45/12/89/23/67/34"</p>
+<p><strong>Output:</strong></p>
+<p>Maximum number: 89</p>
+<p>Minimum number: 12</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 5599046  -->
+  <question type="essay">
+    <name>
+      <text>Missing Element and Split</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h1><strong>Find Missing Number in Sequence :</strong></h1>
+<p data-start="146" data-end="230">You are given a <strong data-start="162" data-end="172">string</strong> that contains a sequence of <strong data-start="201" data-end="229">comma-separated integers</strong>.</p>
+<ul data-start="232" data-end="393">
+<li data-start="232" data-end="298">
+<p data-start="234" data-end="298">The numbers represent a sequence starting from <strong data-start="281" data-end="286">1</strong> up to <strong data-start="293" data-end="298">N</strong></p>
+</li>
+<li data-start="299" data-end="352">
+<p data-start="301" data-end="352"><strong data-start="301" data-end="334">Exactly one number is missing</strong> from the sequence</p>
+</li>
+</ul>
+<p data-start="395" data-end="449">Your task is to <strong data-start="411" data-end="448">find and print the missing number</strong>.</p>
+<p data-start="395" data-end="449"><strong>input : String nums = "1,2,3,5,6,7,8,9,10";</strong></p>
+<p data-start="395" data-end="449"><strong>output : 4</strong></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 5600668  -->
+  <question type="essay">
+    <name>
+      <text>Second Largest Element</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h1><strong>Second Largest Number:</strong></h1>
+<p>Write a program that finds the second largest number in a given array of integers.</p>
+<p><strong>Notes: </strong>The array will contain at least two elements.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+</quiz>

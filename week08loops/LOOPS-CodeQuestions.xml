@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Code LOOPS</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 5496680  -->
+  <question type="essay">
+    <name>
+      <text>factors</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p data-start="219" data-end="345">Write a java program that asks the user to enter an integer number.<br data-start="281" data-end="284" /> The program should print <span data-start="311" data-end="330">all the factors</span> of the number.</p>
+<p data-start="350" data-end="435">A <span data-start="352" data-end="362">factor</span> of a number is a number that divides it <span data-start="403" data-end="414">exactly</span> (with no remainder).</p>
+<p data-start="350" data-end="435">input : 10</p>
+<p data-start="350" data-end="435">output : 1 2 5 10</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>5.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>monospaced</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 5496685  -->
+  <question type="essay">
+    <name>
+      <text>max</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Ask the user to enter 10 numbers one by one. Find and display the maximum number.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 5496679  -->
+  <question type="essay">
+    <name>
+      <text>reverse integer</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Write a java program that asks the user to enter an integer number.<br data-start="198" data-end="201" /> The program should reverse the number and print the reversed number.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 5496152  -->
+  <question type="essay">
+    <name>
+      <text>String palindrom</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p data-start="158" data-end="277">Write a program that asks the user to enter a string.<br data-start="211" data-end="214" /> The program should check if the string is a <span data-start="260" data-end="274">palindrome</span>.</p>
+<p data-start="284" data-end="389">A string is a palindrome if it is the same when read <span data-start="337" data-end="359">from left to right</span> and <span data-start="364" data-end="386">from right to left</span>.</p>
+<p data-start="396" data-end="470">If the string is a palindrome, print <code data-start="433" data-end="439">true</code>.<br data-start="440" data-end="443" /> Otherwise, print <code data-start="462" data-end="469">false</code>.</p>
+<p data-start="396" data-end="470"><strong data-start="472" data-end="507">Examples of palindrome strings:</strong><br data-start="507" data-end="510" /> <code data-start="510" data-end="519">RaceCar</code><br data-start="534" data-end="537" /> <code data-start="537" data-end="544">madam</code></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>5.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+</quiz>

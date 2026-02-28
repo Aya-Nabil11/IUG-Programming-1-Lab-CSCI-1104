@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Random Category</text>
+    </category>
+    <info format="html">
+      <text><![CDATA[<p>The default category for questions shared in context 'CSCI1104-6200'.</p>]]></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 5307442  -->
+  <question type="multichoice">
+    <name>
+      <text>addition assignment</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is the correct way to use the addition assignment operator in Java?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>a += 5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>a =+ 5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>a ++= 5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>a = a + 5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307360  -->
+  <question type="multichoice">
+    <name>
+      <text>IncrementAndDecrementOperators</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>After the following operation:</p>
+<p><img src="@@PLUGINFILE@@/%D9%84%D9%82%D8%B7%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D8%B4%D8%A9%202025-11-27%20180850.png" alt="float c = 4.5f; c--;" width="552" height="75" /></p>
+<p><span>What will be the value of <span style="color: #e83e8c; font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;"><span style="font-size: 14px;">c</span></span></span><span>?</span></p>]]></text>
+<file name="لقطة الشاشة 2025-11-27 180850.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4.4</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5.5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p><span>3.5</span></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4.5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307441  -->
+  <question type="multichoice">
+    <name>
+      <text>JavaArithmeticOperators</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a = 10 and b = 5, what is the result of b % a?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307444  -->
+  <question type="multichoice">
+    <name>
+      <text>JavaArithmeticOperators</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a = 10 and b = 5, what is the value of a after executing a %= b?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307445  -->
+  <question type="multichoice">
+    <name>
+      <text>JavaArithmeticOperators</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If int a = 10; and int b = 3; what is the result of a / b?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3.33</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10/3</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307443  -->
+  <question type="multichoice">
+    <name>
+      <text>JavaAssignmentOperator</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the following Java assignment operator do? a *= b</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Multiplies a by b and assigns the result to a</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Divides a by b and assigns the result to a</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Subtracts b from a and assigns the result to a</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Adds a to b and assigns the result to b</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307370  -->
+  <question type="multichoice">
+    <name>
+      <text>JavaAssignmentOperator</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which operator is used for assignment in Java?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>=</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>==</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>===</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307367  -->
+  <question type="multichoice">
+    <name>
+      <text>Q1 - Print Statement</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the correct way to print in Java?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>System.out.println("Hello");</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>print("Hello")</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>System.print.out("Hello")</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>system.print.out("Hello")</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5354404  -->
+  <question type="multichoice">
+    <name>
+      <text>Q10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which comment syntax is correct for single-line comments in Java?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>/* comment */</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>// comment</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p># comment</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>''''''</p>
+<!-- comment -->]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5354405  -->
+  <question type="multichoice">
+    <name>
+      <text>Q15</text>
+    </name>
+    <questiontext format="html">
+      <text>What is the result of 5 + 3 * 2 in Java?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>16</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>13</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>10</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5354399  -->
+  <question type="multichoice">
+    <name>
+      <text>Q2</text>
+    </name>
+    <questiontext format="html">
+      <text>Which of these is NOT a primitive data type in Java?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>int</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>boolean</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>String</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>char</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5354400  -->
+  <question type="multichoice">
+    <name>
+      <text>Q4</text>
+    </name>
+    <questiontext format="html">
+      <text>What does JVM stand for?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>Java Virtual Machine</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Java Variable Method</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Java Verified Module</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Java Version Manager</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5354401  -->
+  <question type="multichoice">
+    <name>
+      <text>Q5</text>
+    </name>
+    <questiontext format="html">
+      <text>What is the result of Java compiler?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>Machine code</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Byte code</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Assembly code</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Source code</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5354402  -->
+  <question type="multichoice">
+    <name>
+      <text>Q6</text>
+    </name>
+    <questiontext format="html">
+      <text>Which type casting is done automatically by Java?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>Explicit casting</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Implicit casting (widening)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Manual casting</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>None of the above</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5354403  -->
+  <question type="multichoice">
+    <name>
+      <text>Q8</text>
+    </name>
+    <questiontext format="html">
+      <text>Which operator is used for assignment in Java?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>==</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>=</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>+=</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[=>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307389  -->
+  <question type="shortanswer">
+    <name>
+      <text>Q3 - Data Type</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Declare a variable called "name"  of type String and assign it the value "aya"</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[String name = "aya";]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[String name= "aya";]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[String name ="aya";]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[String name="aya";]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307368  -->
+  <question type="truefalse">
+    <name>
+      <text>Q2 - Variables</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Java variables must have a data type.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 5307371  -->
+  <question type="truefalse">
+    <name>
+      <text>Q5 - Increment Operator</text>
+    </name>
+    <questiontext format="html">
+      <text>The operator ++ is used to decrement a value.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
