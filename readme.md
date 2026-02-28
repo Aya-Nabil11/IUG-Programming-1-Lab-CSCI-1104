@@ -1,8 +1,5 @@
 # 📘 IUG Programming (1) Lab — CSCI 1104
 
-> **A complete beginner Java curriculum — lab code, assignments, quizzes, and recorded lectures, all in one place.**
-> Prepared by **Aya Nabil Alharazin** — Teaching Assistant, Faculty of Information Technology, Islamic University of Gaza
-
 ![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
 ![Semester](https://img.shields.io/badge/Semester-Fall%202025-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
